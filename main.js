@@ -1,3 +1,4 @@
+<body>
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
@@ -53,3 +54,4 @@ function result() {
     story.textContent = newstory;
     story.style.visibility = 'visible';
 }
+</body>
